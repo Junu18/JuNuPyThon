@@ -10,12 +10,12 @@ class People:
         print(self.height)
 
         
-a = input()
-b = input()
-c = input()
+age = input()
+gender = input()
+height = input()
 
 
 
-Junu = People(a,b,c)
+Junu = People(age,gender,height)
 
 Junu.printdata()
